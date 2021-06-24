@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 import express, { NextFunction, Request, Response } from 'express'
-import 'express-adync-erros'
+import 'express-async-errors'
 import './database/connection'
 import { router } from './routes'
 
